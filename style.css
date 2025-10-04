@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    margin: auto;
+    text-align: center;
+}
+.announcementBarWrapper .bgColor {
+    background-color: #f5fcf8;
+}
+.cursor {
+    cursor: pointer;
+}
+.alignC {
+    align-items: center;
+}
+.widthPercent {
+    width: 100%;
+}
+.fwgt6 {
+    font-weight: 600;
+}
+.z1 {
+    z-index: 1;
+}
+.lineHgt {
+    line-height: 1.2;
+}
+.size16 {
+    font-size: 16px;
+}
+.size15 {
+    font-size: 15px;
+}
+.display1 {
+    display: flex;
+    justify-content: space-between;
+}
+.display2 {
+    display: inline-block;
+}
+.color1{
+    color: rgb(89, 108, 131);
+}
+.flowHide {
+    overflow: hidden;
+}
+.margin21 {
+    margin-top: 21px;
+    transform: scaleY(.95);
+    letter-spacing: .05px;
+}
+.announcementBarAdjust p {
+    color: rgb(83, 86, 90);
+    padding: 10px 14px 14px 14px;
+    text-align: center;
+    font-size: 12px;
+    transform: translateX(6px);
+    transform: scaleY(1.05);
+    letter-spacing: 1.55px;
+}
+.videoDiv {
+    max-height: 807px;
+    margin-top: -106px;
+}
+.videoDiv video {
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.bgColor {
+    background-color: white;
+}
+header {
+    padding: 30px;
+    padding-bottom: 0;
+    margin: 0 auto;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.headerDiv {
+    border-radius: 5px;
+    padding: 20px 30px 19px 30px;
+    margin: 0 auto;
+    position: sticky;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 2px 0px;
+}
+.logoDiv h1 {
+    width: 120px;
+    display: grid;
+}
+.navLinks {
+    letter-spacing: .5px;
+    width: 84%;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mainUl li a {
+    padding: 0 20px;
+}
+.fwgt4 {
+    font-weight: 400;
+}
+.about {
+    transform: translateX(-15px);
+}
+.about + .icon-caret {
+    width: 10px;
+    transform: translateX(-9px);
+    margin-top: 4px;
+}
+.faqs, .contact {
+    transform: translateX(-24px);
+}
+.shop:hover + .icon-caret {
+    transform: rotate(180deg);
+}
+.about:hover + .icon-caret {
+    transform: rotate(180deg) translateX(9px);
+}
+.aboutLi {
+    position: relative;
+}
+.aboutLi:hover > .aboutUl {
+    display: block;
+}
+.aboutUl {
+    position: absolute;
+    z-index: 1;
+    top: 22px;
+    padding: 42px 10px 15px;
+    width: 180px;
+    transform: translateX(-15px);
+    text-align: left;
+    display: none;
+}
+.aboutUl li a {
+    padding: 9px 20px 11px;
+    font-weight: 700;
+    opacity: 0.95;
+    letter-spacing: .45px;
+}
+.aboutUl li a:hover {
+    background-color: rgb(245, 245, 245);
+    width: 76%;
+    border-radius: 5px;
+}
+.sicon {
+    width: 10px;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+.IconsDiv {
+    width: 120px;
+    transform: translateY(15px);
+}
+.setIcon {
+    width: 24px;
+}
+.setIcon p {
+    font-size: 25px;
+    padding: 0 10px 0 3px;
+    font-weight: 100;
+    transform: translateY(-15px);
+}
+.searchIconDiv svg {
+    transform: translate(-15px, -9px);
+}
+.userIconDiv svg {
+    transform: translate(-9px, -9px);
+}
+.searchIconDiv p {
+    transform: translate(-7px, -15px);
+}
+.dustIconDiv svg {
+    transform: translate(-4px, -12px);
+}
+.heroContent {
+    position: absolute;
+    z-index: 10;
+    top: 641px;
+    left: 110px;
+    max-width: 88%;
+}
+.heroContent h2 {
+    font-size: 49px;
+    max-width: 790px;
+}
+.heroContent .btnDiv button {
+    width: 130px;
+    height: 130px;
+    justify-content: center;
+    border-radius: 1000px;
+    border: none;
+    padding-top: 1px;
+    background-color: rgb(67, 88, 112);
+}
+.headerContent2 {
+    z-index: 50;
+    max-height: 902px;
+    text-align: left;
+    padding: 45px 45px 0 45px;
+    position: absolute;
+    width: calc(100% - 150px);
+    font-size: 14px;
+    margin: 0 auto;
+    display: none;
+}
+.headerWrapper {
+    width: 1194px;
+    padding: 3px 5px 0 9px;
+}
+.innerHeader {
+    width: 200px;
+    padding: 5px;
+    height: 100%;
+}
+.innerHeaderLi:hover {
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+.innerHead {
+    font-weight: 700;
+    margin-top: 6px;
+    transform: scaleY(0.9);
+    letter-spacing: 0.06px;
+}
+.innerHeader2 {
+    margin-top: 0;
+    transform: translateY(-16px);
+}
+.innerHead2 {
+    letter-spacing: 0.06px;
+}
+.innerUl {
+    margin: 14px 15px;
+}
+.innerUl2 {
+    margin-bottom: 5px;
+}
+.innerText {
+    margin-bottom: 19px;
+    letter-spacing: 0.58px;
+}
+.innerTextAdjust {
+    margin: 1px 0 18px 0;
+}
+.cards {
+    text-align: center;
+    margin-left: 1px;
+}
+.card {
+    height: 437px;
+    border-radius: 5px;
+    width: 287px; 
+}
+.card img {
+    height: 100%;
+    width: 152%;
+}
+.headerCard1 .card img {
+    transform: translateX(-75px);     
+}
+.headerCard2 .card img {
+    width: 135.6%;
+    transform: translateX(-51px);
+}
+.headerCard3 .card {
+    width: 286px;
+}
+.headerCard3 .card img {
+    width: 133.5%;
+    transform: translateX(-47.2px);
+}
+.headerCard4 .card {
+    width: 288px;
+}
+.headerCard4 .card img {
+    transform: translateX(-75px);
+}
+.color2 {
+    color: rgb(67, 88, 112);
+}
+.reduced-padding {
+    padding-top: 16px !important;
+    padding-bottom: 14px !important;
+    border-radius: 5px 5px 0 0px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    gap: 15px;
+}
+.searchScrollDiv {
+    height: 100vh;
+    background-color: #435870;
+    opacity: 0.5;
+    position: absolute;
+    top: 143px;
+    right: 30px;
+    left: 30px;
+    z-index: 99;
+    display: none;
+}
+.navLinks input[type="text"]::placeholder {
+    letter-spacing: 0.8px;
+}
+.searchDiv input {
+    position: relative;
+}
+#closeSearch p {
+    transform: scaleX(1.55) translate(-6px, -2px);
+    font-size: 28px;
+    padding: 0;
+}
+.searchDiv svg {
+    position: absolute;
+    width: 19px;
+    left: 69.2%;
+    top: 28px;
+}
+.cartDrawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background-color: #f5fcf8;
+    color: rgb(83, 86, 90);
+}
+.innerCartDrawer {
+    padding: 15px;
+}
+.mainInnerCartDrawer {
+    
+}
+.drawerClose {
+    width: 20px;
+    margin-left: 90%;
+}
+.drawerBtn {
+    background-color: rgb(67, 88, 112);
+}
+.colorfff {
+    color: white;
+}
+
+/* button:hover > div {
+    display: block;
+} */
