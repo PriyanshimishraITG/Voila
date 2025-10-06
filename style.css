@@ -335,13 +335,12 @@ header {
     z-index: 1000;
     background-color: #f5fcf8;
     color: rgb(83, 86, 90);
+    display: none;
 }
 .innerCartDrawer {
     padding: 15px;
 }
-.mainInnerCartDrawer {
-    
-}
+/* .mainInnerCartDrawer */     
 .drawerClose {
     width: 20px;
     margin-left: 90%;
@@ -352,7 +351,3 @@ header {
 .colorfff {
     color: white;
 }
-
-/* button:hover > div {
-    display: block;
-} */
